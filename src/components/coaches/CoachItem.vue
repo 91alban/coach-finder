@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  props: ['id', 'firstName', 'lastName', 'rate', 'areas'],
+  props: ['id', 'firstName', 'lastName','description', 'rate', 'areas'],
   computed: {
     fullName() {
       return this.firstName + ' ' + this.lastName;
