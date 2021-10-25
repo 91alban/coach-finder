@@ -89,7 +89,7 @@ export default {
             this.isLoading = false;
         },
         handleError() {
-            this.error = null;
+            this.error = null;  
         }
     },
 }
